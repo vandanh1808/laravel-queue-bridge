@@ -4,8 +4,14 @@
   "description": "Serialize and deserialize Laravel Queue messages (PHP serialized) in Node.js/TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "laravel-queue-bridge": "bin/cli.js"
+  },
   "files": [
-    "dist"
+    "dist",
+    "bin",
+    "CLAUDE.md",
+    ".claude"
   ],
   "scripts": {
     "build": "tsc",
